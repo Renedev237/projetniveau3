@@ -1,0 +1,134 @@
+.connexion-container {
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    margin: 50px auto;
+}
+
+.head {
+    background-color: #2E7D32;
+    color: white;
+    text-align: center;
+    padding: 35px 25px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.head p {
+    margin-bottom: 10px;
+}
+
+
+.head h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.fin {
+    padding: 35px;
+}
+
+
+.champ {
+    margin-bottom: 20px;
+}
+
+
+.champ label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.champ input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+.champ input:focus {
+    border-color: #2E7D32;
+    box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.12);
+}
+
+
+.oublie {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+
+.oublie a {
+    color: #2E7D32;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.oublie a:hover {
+    text-decoration: underline;
+}
+
+
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2E7D32;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #1B5E20;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #388E3C;
+    transform: translateY(-2px);
+}
+
+
+.inscription {
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+.inscription p {
+    display: inline;
+    color: #666;
+    font-size: 14px;
+}
+
+
+.inscription a {
+    display: inline-block;
+    margin-left: 5px;
+
+    color: #2E7D32;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+
+.inscription a:hover {
+    text-decoration: underline;
+}

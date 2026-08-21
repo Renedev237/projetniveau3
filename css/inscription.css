@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f8f5;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inscription-container {
+    width: 950px;
+    min-height: 650px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+}
+
+.presentation {
+    width: 40%;
+    background: #2E7D32;
+    color: white;
+    padding: 50px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    background: white;
+    color: #2E7D32;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.presentation h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+
+.presentation p {
+
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.presentation span {
+    line-height: 1.6;
+}
+
+
+.form-container {
+    width: 60%;
+    padding: 40px 50px;
+    
+}
+
+.form-container h2 {
+    color: #2E7D32;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.sous-titre {
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.ligne {
+    display: flex;
+    gap: 20px;
+}
+
+.champ {
+    width: 100%;
+    margin-bottom: 18px;
+}
+.champ label {
+    display: block;
+    margin-bottom: 7px;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.champ input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.champ input:focus {
+    border-color: #2E7D32;
+    box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.12);
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: #2E7D32;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #1B5E20;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #388E3C;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 0 #1B5E20;
+}
+
+
+button:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px 0 #1B5E20;
+}
+
+
+
+.connexion {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+
+.connexion a {
+    color: #2E7D32;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.connexion a:hover {
+    text-decoration: underline;
+}
+
