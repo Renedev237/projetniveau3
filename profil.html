@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/profil.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+        <div class="container-fluid title">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="image/logo.jpg"
+                     alt="Logo PharmaCare"
+                     class="logo">
+                PharmaCare
+            </a>
+
+            <!-- Bouton mobile -->
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse"
+                 id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Accueil
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">
+                            Services
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="produit.html">
+                            Produits
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                    <!-- PROFIL DIFFÉRENT -->
+                    <li class="nav-item profil-item">
+                        <a class="profil-link" href="profil.html">
+
+                            <span class="profil-icon">👤</span>
+
+                            <span class="profil-text">
+                                Profil
+                            </span>
+
+                        </a>
+                    </li>
+
+                </ul>
+
+                <!-- Bouton inscription -->
+                <a href="connexion.html" class="btn2">
+                    S'inscrire
+                </a>
+
+            </div>
+
+        </div>
+    </nav>
+</header>
+<section class="profil-section py-5">
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- MENU PROFIL À GAUCHE -->
+            <div class="col-12 col-md-4 col-lg-3">
+
+                <div class="profil-card">
+
+                    <!-- En-tête -->
+                    <div class="profil-header text-center">
+                        <div class="profil-icon">👤</div>
+                        <h4>Mon profil</h4>
+                        <p>Gérez vos informations</p>
+                    </div>
+
+                    <!-- Informations personnelles -->
+                    <div class="profil-menu">
+
+                        <h6>👤 Informations personnelles</h6>
+
+                        <div class="profil-info">
+                            <p><strong>Nom :</strong> Jean</p>
+                            <p><strong>Prénom :</strong> Paul</p>
+                            <p><strong>Email :</strong> jean@email.com</p>
+                            <p><strong>Téléphone :</strong> 6XX XX XX XX</p>
+                        </div>
+
+                        <!-- Adresse -->
+                        <h6>📍 Adresse</h6>
+
+                        <div class="profil-info">
+                            <p><strong>Ville :</strong> Yaoundé</p>
+                            <p><strong>Adresse :</strong> Mon adresse de livraison</p>
+                        </div>
+
+                        <!-- Sécurité -->
+                        <h6>🔐 Sécurité</h6>
+
+                        <a href="#" class="profil-link">
+                            🔑 Modifier mon mot de passe
+                        </a>
+
+                        <!-- Achats -->
+                        <h6>🛒 Mes achats</h6>
+
+                        <a href="#" class="profil-link">
+                            📦 Mes commandes
+                        </a>
+
+                        <a href="#" class="profil-link">
+                            🚚 Commandes en cours
+                        </a>
+
+                        <a href="#" class="profil-link">
+                            📋 Historique des commandes
+                        </a>
+
+                        <!-- Favoris -->
+                        <h6>❤️ Mes produits favoris</h6>
+
+                        <a href="#" class="profil-link">
+                            ❤️ Produits que j'ai enregistrés
+                        </a>
+
+                        <!-- Panier -->
+                        <h6>🛍️ Mon panier</h6>
+
+                        <a href="#" class="profil-link">
+                            🛒 Produits actuellement dans mon panier
+                        </a>
+
+                        <!-- Paramètres -->
+                        <h6>⚙️ Paramètres</h6>
+
+                        <a href="#" class="profil-link">
+                            ✏️ Modifier mes informations
+                        </a>
+
+                        <!-- Déconnexion -->
+                        <a href="#" class="logout-link">
+                            🚪 Déconnexion
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ESPACE À DROITE -->
+            <div class="col-12 col-md-8 col-lg-9">
+
+                <div class="profil-content">
+
+                    <h2>Bienvenue sur votre espace personnel 👋</h2>
+
+                    <p>
+                        Retrouvez ici toutes les informations concernant
+                        votre compte, vos commandes et vos produits favoris.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-container container-fluid"><div class="row g-4">
+
+        <!-- Logo -->
+        <div class="footer-logo col-12 col-md-6 col-lg-3">
+            <img src="image/logo.jpg" alt="Logo" class="logo">
+            <h2> PharmaCare</h2>
+            <p>Votre santé, notre priorité.</p>
+        </div>
+
+        <!-- Liens rapides -->
+        <div class="footer-section col-12 col-md-6 col-lg-3">
+            <h3>Liens rapides</h3>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Produit</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Service</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-section col-12 col-md-6 col-lg-3">
+            <h3>Contact</h3>
+            <div class="svg"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M160-240h640v-480H160v480Zm0 80q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm0-80v-480 480Zm291.5-251.5Q440-503 440-520t11.5-28.5Q463-560 480-560t28.5 11.5Q520-537 520-520t-11.5 28.5Q497-480 480-480t-28.5-11.5ZM480-280q81-69 120.5-127.5T640-516q0-75-48.5-119.5T480-680q-63 0-111.5 44.5T320-516q0 50 39.5 108.5T480-280Z"/></svg> <p class="vag">Douala, Cameroun</p></div>
+            
+            <div class="svg"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg><p>+237 6 90 00 00 00</p></div> 
+            <div class="svg"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg><p>PharmaCare@gmail.com</p></div>
+            <div class="newsletter">
+          <form class="newsletter-form row g-2">
+        <input type="email" class="form-control col-12 col-md" placeholder="Votre e-mail" required>
+        <button type="submit" class="btn col-12 col-md-auto">Envoyer</button>
+         </form>
+</div>
+        </div>
+
+        <!-- Réseaux sociaux -->
+        <div class="footer-section col-12 col-md-6 col-lg-3">
+            <h3>Réseaux sociaux</h3>
+            <a href="#">Facebook</a><br>
+            <a href="#">Instagram</a><br>
+            <a href="#">LinkedIn</a><br>
+            <a href="#">YouTube</a>
+        </div>
+
+    </div></div>
+    <hr>
+    <div class="footer-bottom">
+        <p>&copy; 2026  PharmaCare, Tous droits réservés.</p>
+    </div>
+</footer>
+</body>
+</html>

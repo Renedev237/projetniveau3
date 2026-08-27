@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
-     <header>
+   
+
+<header>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
         <div class="container-fluid title">
@@ -37,7 +43,7 @@
                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                     <li class="nav-item">
-                        <a class="nav-link " href="index.html">
+                        <a class="nav-link" href="index.html">
                             Accueil
                         </a>
                     </li>
@@ -60,12 +66,6 @@
                         </a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            À Propos
-                        </a>
-                    </li>
-
                 </ul>
 
                 <!-- Bouton inscription -->
@@ -78,140 +78,549 @@
         </div>
 
     </nav>
+
 </header>
 
- 
 
-    <div class="contact-container">
+<!-- ESPACE SOUS LA NAVBAR -->
+<main class="pt-5">
 
-        <!-- Informations de contact -->
-        <div class="contact-info">
+    <section class="py-5 bg-light">
 
-            <h1>Contactez-nous</h1>
+        <div class="container">
 
-            <p>
-                Nous sommes à votre écoute.
-                N'hésitez pas à nous contacter pour toute question
-                ou demande d'information.
-            </p>
+            <div class="row justify-content-center text-center">
 
-            <div class="info">
-                        <h3>Disponibilité</h3>
-                        <p>24h/24 et 7j/7</p>
-                    
+                <div class="col-12 col-lg-9">
+
+                    <span class="badge bg-success mb-3">
+                        <i class="bi bi-headset"></i>
+                        Assistance PharmaCare
+                    </span>
+
+                    <h1 class="display-5 fw-bold">
+                        Contactez-nous
+                    </h1>
+
+                    <p class="lead text-muted">
+                        Une question concernant un produit, une commande,
+                        une livraison ou nos services ?
+                        Notre équipe est à votre écoute.
+                    </p>
+
+                </div>
+
             </div>
 
         </div>
 
+    </section>
 
-        <!-- Formulaire -->
-        <div class="contact-form">
 
-            <h2>Envoyez-nous un message</h2>
 
-            <form>
+    <!-- =========================
+         INFORMATIONS + FORMULAIRE
+    ========================== -->
 
-                <div class="ligne">
+    <section class="py-5">
 
-                    <div class="champ">
+        <div class="container">
 
-                        <label for="nom">Nom</label>
+            <div class="row g-4 align-items-stretch">
 
-                        <input
-                            type="text"
-                            id="nom"
-                            placeholder="Votre nom"
-                            required
-                        >
+                <div class="col-12 col-lg-5">
+
+                    <div class="card border-0 shadow-sm h-100">
+
+                        <div class="card-body p-4 p-lg-5">
+
+                            <h2 class="h3 fw-bold mb-3">
+                                Parlons de votre besoin
+                            </h2>
+
+                            <p class="text-muted">
+                                Nous sommes disponibles pour répondre à vos
+                                questions et vous accompagner dans vos achats
+                                de produits de santé.
+                            </p>
+
+
+                            <div class="d-flex align-items-start gap-3 mb-4">
+
+                                <div class="fs-3 text-success">
+                                    <i class="bi bi-clock-fill"></i>
+                                </div>
+
+                                <div>
+
+                                    <h3 class="h6 fw-bold mb-1">
+                                        Disponibilité
+                                    </h3>
+
+                                    <p class="mb-0">
+                                        24h/24 et 7j/7
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+
+                            <hr>
+
+
+                            <!-- Réponse rapide -->
+                            <div class="alert alert-success mt-4">
+
+                                <div class="d-flex gap-2">
+
+                                    <i class="bi bi-check-circle-fill"></i>
+
+                                    <div>
+                                        <strong>Réponse rapide</strong>
+
+                                        <p class="mb-0 small">
+                                            Notre équipe s'efforce de répondre
+                                            à vos demandes dans les meilleurs délais.
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
 
                     </div>
 
-                    <div class="champ">
+                </div>
 
-                        <label for="prenom">Prénom</label>
+                <div class="col-12 col-lg-7">
 
-                        <input
-                            type="text"
-                            id="prenom"
-                            placeholder="Votre prénom"
-                            required
-                        >
+                    <div class="card border-0 shadow-sm h-100">
+
+                        <div class="card-body p-4 p-lg-5">
+
+                            <h2 class="h3 fw-bold mb-4">
+                                Envoyez-nous un message
+                            </h2>
+
+                            <form>
+
+
+                                <!-- Nom + prénom -->
+                                <div class="row g-3">
+
+                                    <div class="col-12 col-md-6">
+
+                                        <label for="nom"
+                                               class="form-label fw-semibold">
+                                            Nom
+                                        </label>
+
+                                        <input type="text"
+                                               class="form-control"
+                                               id="nom"
+                                               placeholder="Votre nom"
+                                               required>
+
+                                    </div>
+
+
+                                    <div class="col-12 col-md-6">
+
+                                        <label for="prenom"
+                                               class="form-label fw-semibold">
+                                            Prénom
+                                        </label>
+
+                                        <input type="text"
+                                               class="form-control"
+                                               id="prenom"
+                                               placeholder="Votre prénom"
+                                               required>
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Email + téléphone -->
+                                <div class="row g-3 mt-1">
+
+                                    <div class="col-12 col-md-6">
+
+                                        <label for="email"
+                                               class="form-label fw-semibold">
+                                            Email
+                                        </label>
+
+                                        <input type="email"
+                                               class="form-control"
+                                               id="email"
+                                               placeholder="exemple@email.com"
+                                               required>
+
+                                    </div>
+
+
+                                    <div class="col-12 col-md-6">
+
+                                        <label for="telephone"
+                                               class="form-label fw-semibold">
+                                            Téléphone
+                                        </label>
+
+                                        <input type="tel"
+                                               class="form-control"
+                                               id="telephone"
+                                               placeholder="+237 6XX XXX XXX">
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Sujet -->
+                                <div class="mt-3">
+
+                                    <label for="sujet"
+                                           class="form-label fw-semibold">
+                                        Sujet
+                                    </label>
+
+                                    <select id="sujet"
+                                            class="form-select"
+                                            required>
+
+                                        <option value="">
+                                            Choisissez un sujet
+                                        </option>
+
+                                        <option>
+                                            Demande d'information
+                                        </option>
+
+                                        <option>
+                                            Commande
+                                        </option>
+
+                                        <option>
+                                            Livraison
+                                        </option>
+
+                                        <option>
+                                            Produit
+                                        </option>
+
+                                        <option>
+                                            Réclamation
+                                        </option>
+
+                                        <option>
+                                            Conseil pharmaceutique
+                                        </option>
+
+                                        <option>
+                                            Autre
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+
+                                <!-- Message -->
+                                <div class="mt-3">
+
+                                    <label for="message"
+                                           class="form-label fw-semibold">
+                                        Votre message
+                                    </label>
+
+                                    <textarea id="message"
+                                              class="form-control"
+                                              rows="6"
+                                              placeholder="Écrivez votre message..."
+                                              required></textarea>
+
+                                </div>
+
+                                <div class="d-grid d-md-flex justify-content-md-end mt-4">
+
+                                    <button type="submit"
+                                            class="btn btn-success px-4">
+
+                                        <i class="bi bi-send-fill me-2"></i>
+
+                                        Envoyer le message
+
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <h2 class="fw-bold">
+                    Pourquoi contacter PharmaCare ?
+                </h2>
+
+                <p class="text-muted">
+                    Nous sommes là pour vous accompagner.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+
+                <div class="col-12 col-md-6 col-lg-3">
+
+                    <div class="card card-conseil border-0 shadow-sm h-100 text-center">
+
+                        <div class="card-body p-4">
+
+                            <i class="bi bi-person-check-fill fs-1 text-success"></i>
+
+                            <h3 class="h5 fw-bold mt-3">
+                                Conseil
+                            </h3>
+
+                            <p class="text-muted mb-0">
+                                Obtenez des informations sur nos produits
+                                et services.
+                            </p>
+
+                        </div>
 
                     </div>
 
                 </div>
 
 
-                <div class="champ">
+                <div class="col-12 col-md-6 col-lg-3">
 
-                    <label for="email">Email</label>
+                    <div class="card card-conseil border-0 shadow-sm h-100 text-center">
 
-                    <input
-                        type="email"
-                        id="email"
-                        placeholder="exemple@email.com"
-                        required
-                    >
+                        <div class="card-body p-4">
 
-                </div>
+                            <i class="bi bi-cart-check-fill fs-1 text-success"></i>
 
+                            <h3 class="h5 fw-bold mt-3">
+                                Commande
+                            </h3>
 
-                <div class="champ">
+                            <p class="text-muted mb-0">
+                                Besoin d'aide concernant votre commande ?
+                                Contactez-nous.
+                            </p>
 
-                    <label for="telephone">Téléphone</label>
+                        </div>
 
-                    <input
-                        type="tel"
-                        id="telephone"
-                        placeholder="+237 6XX XXX XXX"
-                    >
+                    </div>
 
                 </div>
 
 
-                <div class="champ">
+                <div class="col-12 col-md-6 col-lg-3">
 
-                    <label for="sujet">Sujet</label>
+                    <div class="card card-conseil border-0 shadow-sm h-100 text-center">
 
-                    <select id="sujet">
+                        <div class="card-body p-4">
 
-                        <option value="">Choisissez un sujet</option>
+                            <i class="bi bi-truck fs-1 text-success"></i>
 
-                        <option>Demande d'information</option>
-                        <option>Commande</option>
-                        <option>Livraison</option>
-                        <option>Produit</option>
-                        <option>Réclamation</option>
-                        <option>Autre</option>
+                            <h3 class="h5 fw-bold mt-3">
+                                Livraison
+                            </h3>
 
-                    </select>
+                            <p class="text-muted mb-0">
+                                Une question sur votre livraison ?
+                                Notre équipe vous accompagne.
+                            </p>
 
-                </div>
+                        </div>
 
-
-                <div class="champ">
-
-                    <label for="message">Votre message</label>
-
-                    <textarea
-                        id="message"
-                        rows="5"
-                        placeholder="Écrivez votre message..."
-                        required
-                    ></textarea>
+                    </div>
 
                 </div>
 
 
-                <button type="submit">
-                    Envoyer le message
-                </button>
+                <div class="col-12 col-md-6 col-lg-3">
 
-            </form>
+                    <div class="card card-conseil border-0 shadow-sm h-100 text-center">
+
+                        <div class="card-body p-4">
+
+                            <i class="bi bi-headset fs-1 text-success"></i>
+
+                            <h3 class="h5 fw-bold mt-3">
+                                Assistance
+                            </h3>
+
+                            <p class="text-muted mb-0">
+                                Notre service client est disponible
+                                pour vous aider.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
 
-    </div>
+    </section>
+
+    <section class="py-5">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-lg-9">
+
+                    <div class="text-center mb-4">
+
+                        <h2 class="fw-bold">
+                            Questions fréquentes
+                        </h2>
+
+                        <p class="text-muted">
+                            Retrouvez rapidement les réponses aux questions
+                            les plus fréquentes.
+                        </p>
+
+                    </div>
+
+
+                    <div class="accordion" id="faq">
+
+
+                        <div class="accordion-item">
+
+                            <h2 class="accordion-header">
+
+                                <button class="accordion-button"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#question1">
+
+                                    Comment passer une commande ?
+
+                                </button>
+
+                            </h2>
+
+                            <div id="question1"
+                                 class="accordion-collapse collapse show"
+                                 data-bs-parent="#faq">
+
+                                <div class="accordion-body">
+
+                                    Sélectionnez le produit souhaité,
+                                    ajoutez-le au panier puis suivez les
+                                    étapes indiquées pour confirmer votre commande.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="accordion-item">
+
+                            <h2 class="accordion-header">
+
+                                <button class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#question2">
+
+                                    Comment contacter PharmaCare ?
+
+                                </button>
+
+                            </h2>
+
+                            <div id="question2"
+                                 class="accordion-collapse collapse"
+                                 data-bs-parent="#faq">
+
+                                <div class="accordion-body">
+
+                                    Vous pouvez nous contacter par téléphone,
+                                    par email ou grâce au formulaire présent
+                                    sur cette page.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="accordion-item">
+
+                            <h2 class="accordion-header">
+
+                                <button class="accordion-button collapsed"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#question3">
+
+                                    Quels sujets puis-je envoyer ?
+
+                                </button>
+
+                            </h2>
+
+                            <div id="question3"
+                                 class="accordion-collapse collapse"
+                                 data-bs-parent="#faq">
+
+                                <div class="accordion-body">
+
+                                    Vous pouvez nous contacter pour une
+                                    commande, une livraison, un produit,
+                                    une réclamation ou une demande
+                                    d'information.
+
+                                </div>    
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+
  <footer class="footer">
     <div class="footer-container container-fluid"><div class="row g-4">
 
